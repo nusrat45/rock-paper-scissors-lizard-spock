@@ -1,0 +1,316 @@
+
+@media only screen and (max-width: 1100px) {
+    .rpsls-score-board {
+        width: 60%;
+    }
+
+    .rplsls-lets-play {
+        width: 62%;
+    }
+    
+    .rpsls-game-rules__btn-rules {
+        display: block;
+    }
+
+    .rpsls-game-rules__btn-rules-small {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .rpsls-score-board {
+        width: 70%;
+    }
+    .rplsls-lets-play {
+        width: 72%;
+    }
+} 
+
+@media only screen and (max-width: 900px) {
+    .rpsls-score-board {
+        width: 90%;
+    }
+    .rplsls-lets-play {
+        width: 92%;
+    }
+} 
+
+@media only screen and (max-width: 768px) {
+    .rplsls-lets-play__two-sides__img {
+        width: 160px;
+        height: 160px;
+    }
+    .rpsls-score-board {
+        width: calc(100% - 10px);
+    }
+    .rplsls-lets-play {
+        width: 100%;
+    }
+
+    .rpsls-pick-options__direction-background {
+        width: 260px;
+        height: 248px;
+    }
+
+    .rpsls-pick-options__icon {
+        height: 80px;
+        width: 80px;
+    }
+
+    .rpsls-pick-options__scissors {
+        border-width: 12px;
+        -webkit-box-shadow: 0px 5px 0px #c36b10, inset 0 10px 10px rgb(128 128 128);
+        -moz-box-shadow: 0px 5px 0px #c36b10, inset 0 10px 10px rgb(128, 128, 128);
+        -o-box-shadow: 0px 5px 0px #c36b10, inset 0 10px 10px rgb(128, 128, 128);
+        box-shadow: 0px 5px 0px #c36b10, inset 0 10px 10px rgb(128 128 128);
+    }
+
+    .rpsls-pick-options__spock {
+        border-width: 12px;
+        -webkit-box-shadow: 0px 5px 0px #8c118c, inset 0 10px 10px rgb(128 128 128);
+        -moz-box-shadow: 0px 5px 0px #8c118c, inset 0 10px 10px rgb(128, 128, 128);
+        -o-box-shadow: 0px 5px 0px #8c118c, inset 0 10px 10px rgb(128, 128, 128);
+        box-shadow: 0px 5px 0px #8c118c, inset 0 10px 10px rgb(128 128 128);
+    }
+
+    .rpsls-pick-options__paper {
+        border-width: 12px;
+        -webkit-box-shadow: 0px 5px 0px rgb(62, 62, 177), inset 0 10px 10px rgb(128 128 128);
+        -moz-box-shadow: 0px 5px 0px rgb(62, 62, 177), inset 0 10px 10px rgb(128, 128, 128);
+        -o-box-shadow: 0px 5px 0px rgb(62, 62, 177), inset 0 10px 10px rgb(128, 128, 128);
+        box-shadow: 0px 5px 0px rgb(62, 62, 177), inset 0 10px 10px rgb(128 128 128);
+    }
+
+    .rpsls-pick-options__lizard {
+        border-width: 12px;
+        -webkit-box-shadow: 0px 5px 0px #0b9090, inset 0 10px 10px rgb(128 128 128);
+        -moz-box-shadow: 0px 5px 0px #0b9090, inset 0 10px 10px rgb(128, 128, 128);
+        -o-box-shadow: 0px 5px 0px #0b9090, inset 0 10px 10px rgb(128, 128, 128);
+        box-shadow: 0px 5px 0px #0b9090, inset 0 10px 10px rgb(128 128 128);
+    }
+
+    .rpsls-pick-options__rock {
+        border-width: 12px;
+        -webkit-box-shadow: 0px 5px 0px rgb(214, 36, 36), inset 0 10px 10px rgb(128 128 128);
+        -moz-box-shadow: 0px 5px 0px rgb(214, 36, 36), inset 0 10px 10px rgb(128, 128, 128);
+        -o-box-shadow: 0px 5px 0px rgb(214, 36, 36), inset 0 10px 10px rgb(128, 128, 128);
+        box-shadow: 0px 5px 0px rgb(214, 36, 36), inset 0 10px 10px rgb(128 128 128);
+    }
+
+    .rpsls-pick-options__icon img {
+        width: 50%;
+     }
+ 
+
+    .rplsls-lets-play__two-sides__picked-img {
+        border: 18px solid #ffb000;
+    }
+
+}  
+
+@media only screen and (max-width: 591px) {
+    .overall-game-container {
+        width: calc(100% - 30px) !important;
+    }
+
+    .rpsls-pick-options {
+        width: 100%;
+    }
+   
+    .rpsls-pick-options__direction-background {
+        width: 260px;
+        height: 248px;
+    }
+
+    .rpsls-pick-options__icon {
+        height: 70px;
+        width: 70px;
+    }
+
+   
+    .rpsls-game-rules__btn-rules {
+        margin-right: auto;
+    }
+
+    .rpsls-score-board {
+        padding: 0px 0px 0px 8px;
+    }
+
+    .rpsls-pick-options__scissors {
+        border-width: 10px;
+        -webkit-box-shadow: 0px 4px 0px #c36b10, inset 0 10px 10px rgb(128 128 128);
+        -moz-box-shadow: 0px 4px 0px #c36b10, inset 0 10px 10px rgb(128, 128, 128);
+        -o-box-shadow: 0px 4px 0px #c36b10, inset 0 10px 10px rgb(128, 128, 128);
+        box-shadow: 0px 4px 0px #c36b10, inset 0 10px 10px rgb(128 128 128);
+    }
+
+    .rpsls-pick-options__spock {
+        margin-left: -22px;
+        margin-top: 0px;
+        border-width: 10px;
+        -webkit-box-shadow: 0px 4px 0px #8c118c, inset 0 10px 10px rgb(128 128 128);
+        -moz-box-shadow: 0px 4px 0px #8c118c, inset 0 10px 10px rgb(128, 128, 128);
+        -o-box-shadow: 0px 4px 0px #8c118c, inset 0 10px 10px rgb(128, 128, 128);
+        box-shadow: 0px 4px 0px #8c118c, inset 0 10px 10px rgb(128 128 128);
+    }
+
+    .rpsls-pick-options__paper {
+        margin-right: -22px;
+        margin-top: 0px;
+        border-width: 10px;
+        -webkit-box-shadow: 0px 4px 0px rgb(62, 62, 177), inset 0 10px 10px rgb(128 128 128);
+        -moz-box-shadow: 0px 4px 0px rgb(62, 62, 177), inset 0 10px 10px rgb(128, 128, 128);
+        -o-box-shadow: 0px 4px 0px rgb(62, 62, 177), inset 0 10px 10px rgb(128, 128, 128);
+        box-shadow: 0px 4px 0px rgb(62, 62, 177), inset 0 10px 10px rgb(128 128 128);
+    }
+
+    .rpsls-pick-options__lizard {
+        border-width: 10px;
+        -webkit-box-shadow: 0px 4px 0px #0b9090, inset 0 10px 10px rgb(128 128 128);
+        -moz-box-shadow: 0px 4px 0px #0b9090, inset 0 10px 10px rgb(128, 128, 128);
+        -o-box-shadow: 0px 4px 0px #0b9090, inset 0 10px 10px rgb(128, 128, 128);
+        box-shadow: 0px 4px 0px #0b9090, inset 0 10px 10px rgb(128 128 128);
+    }
+
+    .rpsls-pick-options__rock {
+        border-width: 10px;
+        -webkit-box-shadow: 0px 4px 0px rgb(214, 36, 36), inset 0 10px 10px rgb(128 128 128);
+        -moz-box-shadow: 0px 4px 0px rgb(214, 36, 36), inset 0 10px 10px rgb(128, 128, 128);
+        -o-box-shadow: 0px 4px 0px rgb(214, 36, 36), inset 0 10px 10px rgb(128, 128, 128);
+        box-shadow: 0px 4px 0px rgb(214, 36, 36), inset 0 10px 10px rgb(128 128 128);
+    }
+
+    
+    .rpsls-game-rules-popup__rules-modal {
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+    }
+
+    .rpsls-game-rules__btn-rules {
+        display: none;
+    }
+
+    .rpsls-game-rules__btn-rules-small {
+        display: block;
+    }
+}  
+
+@media only screen and (max-width: 380px) {
+
+    .rpsls-score-board__game-logo {
+        width: 90px;
+    }
+
+    .rpsls-score-board__score {
+        width: 110px;
+        height: 90px;
+    }
+
+    .rpsls-score-board__score__value {
+        font-size: 35px;
+    }
+
+    .rplsls-lets-play__two-sides__text {
+        font-size: 14px;
+    }
+
+    .rplsls-lets-play__two-sides__img {
+        width: 100px;
+        height: 100px;
+    }    
+
+    .rplsls-lets-play__two-sides__picked-img {
+        border: 10px solid #ffb000;
+    }
+
+    .rplsls-lets-play__two-sides__img img {
+        width: 50%;
+    }
+
+    .rpsls-pick-options__icon {
+        height: 70px;
+        width: 70px;
+    }
+
+    .rpsls-pick-options__icon img {
+       width: 50%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .rplsls-lets-play__two-sides__text {
+        font-size: 10px;
+    } 
+
+    .rplsls-lets-play__two-sides__img {
+        width: 80px;
+        height: 80px;
+    } 
+
+    .rpsls-score-board__game-logo {
+        width: 80px;
+    }
+
+    .rpsls-score-board__score {
+        width: 90px;
+        height: 80px;
+    }
+
+    .rpsls-pick-options__direction-background {
+        width: 200px;
+        height: 191px;
+    }
+
+    .rpsls-pick-options__icon {
+        height: 60px;
+        width: 60px;
+    }
+
+    .rpsls-pick-options__scissors {
+        border-width: 6px;
+        -webkit-box-shadow: 0px 4px 0px #c36b10, inset 0 10px 10px rgb(128 128 128);
+        -moz-box-shadow: 0px 4px 0px #c36b10, inset 0 10px 10px rgb(128, 128, 128);
+        -o-box-shadow: 0px 4px 0px #c36b10, inset 0 10px 10px rgb(128, 128, 128);
+        box-shadow: 0px 4px 0px #c36b10, inset 0 10px 10px rgb(128 128 128);
+    }
+
+    .rpsls-pick-options__spock {
+        margin-left: -22px;
+        margin-top: 0px;
+        border-width: 6px;
+        -webkit-box-shadow: 0px 4px 0px #8c118c, inset 0 10px 10px rgb(128 128 128);
+        -moz-box-shadow: 0px 4px 0px #8c118c, inset 0 10px 10px rgb(128, 128, 128);
+        -o-box-shadow: 0px 4px 0px #8c118c, inset 0 10px 10px rgb(128, 128, 128);
+        box-shadow: 0px 4px 0px #8c118c, inset 0 10px 10px rgb(128 128 128);
+    }
+
+    .rpsls-pick-options__paper {
+        margin-right: -22px;
+        margin-top: 0px;
+        border-width: 6px;
+        -webkit-box-shadow: 0px 4px 0px rgb(62, 62, 177), inset 0 10px 10px rgb(128 128 128);
+        -moz-box-shadow: 0px 4px 0px rgb(62, 62, 177), inset 0 10px 10px rgb(128, 128, 128);
+        -o-box-shadow: 0px 4px 0px rgb(62, 62, 177), inset 0 10px 10px rgb(128, 128, 128);
+        box-shadow: 0px 4px 0px rgb(62, 62, 177), inset 0 10px 10px rgb(128 128 128);
+    }
+
+    .rpsls-pick-options__lizard {
+        border-width: 6px;
+        -webkit-box-shadow: 0px 4px 0px #0b9090, inset 0 10px 10px rgb(128 128 128);
+        -moz-box-shadow: 0px 4px 0px #0b9090, inset 0 10px 10px rgb(128, 128, 128);
+        -o-box-shadow: 0px 4px 0px #0b9090, inset 0 10px 10px rgb(128, 128, 128);
+        box-shadow: 0px 4px 0px #0b9090, inset 0 10px 10px rgb(128 128 128);
+    }
+
+    .rpsls-pick-options__rock {
+        border-width: 6px;
+        -webkit-box-shadow: 0px 4px 0px rgb(214, 36, 36), inset 0 10px 10px rgb(128 128 128);
+        -moz-box-shadow: 0px 4px 0px rgb(214, 36, 36), inset 0 10px 10px rgb(128, 128, 128);
+        -o-box-shadow: 0px 4px 0px rgb(214, 36, 36), inset 0 10px 10px rgb(128, 128, 128);
+        box-shadow: 0px 4px 0px rgb(214, 36, 36), inset 0 10px 10px rgb(128 128 128);
+    }
+}    
+
+

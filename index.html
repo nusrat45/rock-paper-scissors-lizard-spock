@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="overall-game-container">
+
+        <!-- SCORE BOAARD HOLDER -->
+        <section class="rpsls-scoreboard-section">
+            <div class="rpsls-score-board flex-container-row">
+                <div class="rpsls-score-board__game-logo flex-container-column">
+                    <img src="images/logos/logo-bonus.svg" alt="">
+                </div>
+                <div class="rpsls-score-board__score flex-container-column">
+                    <div class="rpsls-score-board__score__text">SCORE</div>
+                    <div class="rpsls-score-board__score__value">0</div>
+                </div>
+            </div>
+        </section>
+       
+        <section class="rpsls-pick-options-section">
+            <div class="rpsls-pick-options">
+                <div class="rpsls-pick-options__direction-background">
+                    <div class="rpsls-pick-options__direction-background__options-grp rpsls-pick-options__direction-background__options-grp-one">
+                        <div class="rpsls-pick-options__icon rpsls-pick-options__scissors">
+                            <img src="images/logos/icon-scissors.svg" alt="scissors_img">
+                        </div>
+                    </div>
+                    <div class="rpsls-pick-options__direction-background__options-grp rpsls-pick-options__direction-background__options-grp-two">
+                        <div class="rpsls-pick-options__icon rpsls-pick-options__spock">
+                            <img src="images/logos/icon-spock.svg" alt="spock_img">
+                        </div>
+                        <div class="rpsls-pick-options__icon rpsls-pick-options__paper">
+                            <img src="images/logos/icon-paper.svg" alt="paper_img">
+                        </div>
+                    </div>
+                    <div class="rpsls-pick-options__direction-background__options-grp rpsls-pick-options__direction-background__options-grp-three">
+                        <div class="rpsls-pick-options__icon rpsls-pick-options__lizard">
+                            <img src="images/logos/icon-lizard.svg" alt="lizard_img">
+                        </div>
+                        <div class="rpsls-pick-options__icon rpsls-pick-options__rock">
+                            <img src="images/logos/icon-rock.svg" alt="rock_img">
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        
+        <section class="rpsls-main-game-section">
+            <div class="rplsls-lets-play flex-container-row">
+                <div class="rplsls-lets-play__two-sides rplsls-lets-play__players-side flex-container-column">
+                    <div class="rplsls-lets-play__two-sides__text rplsls-lets-play__players-side__text">YOU PICKED</div>
+                    <div class="rplsls-lets-play__two-sides__img rplsls-lets-play__players-side__img">
+                        <img alt="">
+                    </div>
+                </div>
+
+                <div class="rpsls-gameover-large-section">
+                    <div class="rpsls-gameover">
+                        <div class="rpsls-gameover__text">YOU WIN</div>
+                        <div class="rpsls-gameover__playagain-btn">PLAY AGAIN</div>
+                    </div>
+                </div>
+
+                <div class="rplsls-lets-play__two-sides rplsls-lets-play__computers-side flex-container-column">
+                    <div class="rplsls-lets-play__two-sides__text rplsls-lets-play__computers-side__text">THE HOUSE PICKED</div>
+                    <div class="rplsls-lets-play__two-sides__img rplsls-lets-play__computers-side__img rplsls-lets-play__computers-side__loading">
+                        <img alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="rpsls-gameover-small-section">
+            <div class="rpsls-gameover">
+                <div class="rpsls-gameover__text">YOU WIN</div>
+                <div class="rpsls-gameover__playagain-btn">PLAY AGAIN</div>
+            </div>
+        </section>
+        
+        <section class="rpsls-game-rules-section">
+            <div class="rpsls-game-rules">
+                <div class="rpsls-game-rules__btn-rules">RULES</div>
+                <div class="rpsls-game-rules__btn-rules-small">RULES</div>
+            </div>
+        </section>
+
+        <div class="rpsls-game-rules-popup">
+            <div class="rpsls-game-rules-popup__background"></div>
+            <div class="rpsls-game-rules-popup__rules-modal flex-container-column">
+                <div class="rpsls-game-rules-popup__rules-modal__top flex-container-row">
+                    <div class="rpsls-game-rules-popup__rules-modal__top__rules-text">RULES</div>
+                    <div class="rpsls-game-rules-popup__rules-modal__top__closebtn">&#10006;</div>
+                </div>
+                <div class="rpsls-game-rules-popup__rules-modal__bottom">
+                    <img src="images/logos/image-rules-bonus.svg" alt="">
+                </div>
+            </div>
+        </div>
+        
+        <div class="rpsls-game-rules-popup-small">
+            <div class="rpsls-game-rules-popup-small__rules-modal flex-container-column">
+                <div class="rpsls-game-rules-popup-small__rules-modal__rules-text">RULES</div>
+                <div class="rpsls-game-rules-popup-small__rules-modal__rules-img">
+                    <img src="images/logos/image-rules-bonus.svg" alt="">
+                </div>
+                <div class="rpsls-game-rules-popup-small__rules-modal__closebtn">&#10006;</div> 
+            </div>
+            
+        </div>
+    </div>
+    <script src="js/functions.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

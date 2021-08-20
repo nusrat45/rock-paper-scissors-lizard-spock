@@ -1,0 +1,117 @@
+/* FOR LARGE DEVICE */
+.rpsls-game-rules__btn-rules {
+    position: relative;
+    margin-left: auto;
+    margin-top: 50px;
+    width: 90px;
+    height: 20px;
+    padding: 5px;
+    line-height: 20px;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.rpsls-game-rules__btn-rules-small {
+    position: relative;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 90px;
+    height: 20px;
+    padding: 5px;
+    line-height: 20px;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.rpsls-game-rules-popup {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.rpsls-game-rules-popup__background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.rpsls-game-rules-popup__rules-modal {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    background-color: #eeeeee;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.rpsls-game-rules-popup__rules-modal__top {
+    color: #666666;
+    justify-content: space-between;
+}
+
+.rpsls-game-rules-popup__rules-modal__bottom {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0px 30px 0px;
+
+}
+
+.rpsls-game-rules-popup__rules-modal__top__closebtn {
+    cursor: pointer;
+}
+
+
+/* FOR SMALL DEVICE */
+
+.rpsls-game-rules-popup-small {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.rpsls-game-rules-popup-small__rules-modal__rules-img img {
+    width: 100%;
+}
+
+.rpsls-game-rules-popup-small__rules-modal {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #eeeeee;
+    color: #666666;
+}
+
+.rpsls-game-rules-popup-small__rules-modal__rules-text {
+    font-weight: bold;
+    margin: 30px 0px;
+}
+
+.rpsls-game-rules-popup-small__rules-modal__rules-img {
+    margin-bottom: 20px;
+}
+
+.rpsls-game-rules-popup-small__rules-modal__closebtn {
+    cursor: pointer;
+}

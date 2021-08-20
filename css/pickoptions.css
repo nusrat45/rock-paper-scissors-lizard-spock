@@ -1,0 +1,117 @@
+.rpsls-pick-options-section {
+    position: relative;
+    display: block;
+}
+
+.rpsls-pick-options {
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.rpsls-pick-options__direction-background {
+    width: 329px;
+    height: 313px;
+    background-image: url(../images/logos/bg-pentagon.svg);
+    background-size: cover;
+    background-position: 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.rpsls-pick-options__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 500ms linear;
+    
+}
+
+/* GROUP - ONE */
+.rpsls-pick-options__scissors {
+    margin-top: -30px;
+    border: 15px solid #ffb000;
+    -webkit-box-shadow: 0px 8px 0px #c36b10, inset 0 12px 10px rgb(128 128 128);
+    -moz-box-shadow: 0px 8px 0px #c36b10, inset 0 12px 10px rgb(128, 128, 128);
+    -o-box-shadow: 0px 8px 0px #c36b10, inset 0 12px 10px rgb(128, 128, 128);
+    box-shadow: 0px 8px 0px #c36b10, inset 0 12px 10px rgb(128 128 128);
+}
+
+/* GROUP - TWO */
+.rpsls-pick-options__spock {
+    margin-left: -50px;
+    margin-top: -30px;
+    border: 15px solid #bd35bd;
+    -webkit-box-shadow: 0px 8px 0px #8c118c, inset 0 12px 10px rgb(128 128 128);
+    -moz-box-shadow: 0px 8px 0px #8c118c, inset 0 12px 10px rgb(128, 128, 128);
+    -o-box-shadow: 0px 8px 0px #8c118c, inset 0 12px 10px rgb(128, 128, 128);
+    box-shadow: 0px 8px 0px #8c118c, inset 0 12px 10px rgb(128 128 128);
+}
+
+.rpsls-pick-options__paper {
+    margin-right: -50px;
+    margin-top: -30px;
+    border: 15px solid rgb(95, 95, 253);
+    -webkit-box-shadow: 0px 8px 0px rgb(62, 62, 177), inset 0 12px 10px rgb(128 128 128);
+    -moz-box-shadow: 0px 8px 0px rgb(62, 62, 177), inset 0 12px 10px rgb(128, 128, 128);
+    -o-box-shadow: 0px 8px 0px rgb(62, 62, 177), inset 0 12px 10px rgb(128, 128, 128);
+    box-shadow: 0px 8px 0px rgb(62, 62, 177), inset 0 12px 10px rgb(128 128 128);
+}
+
+
+/* GROUP - THREE */
+
+.rpsls-pick-options__lizard {
+    margin-left: 0px;
+    margin-top: 30px;
+    border: 15px solid #4cc7c7;
+    -webkit-box-shadow: 0px 8px 0px #0b9090, inset 0 12px 10px rgb(128 128 128);
+    -moz-box-shadow: 0px 8px 0px #0b9090, inset 0 12px 10px rgb(128, 128, 128);
+    -o-box-shadow: 0px 8px 0px #0b9090, inset 0 12px 10px rgb(128, 128, 128);
+    box-shadow: 0px 8px 0px #0b9090, inset 0 12px 10px rgb(128 128 128);
+}
+
+
+.rpsls-pick-options__rock {
+    margin-right: 0px;
+    margin-top: 30px;
+    border: 15px solid rgb(241, 66, 66);
+    -webkit-box-shadow: 0px 8px 0px rgb(214, 36, 36), inset 0 12px 10px rgb(128 128 128);
+    -moz-box-shadow: 0px 8px 0px rgb(214, 36, 36), inset 0 12px 10px rgb(128, 128, 128);
+    -o-box-shadow: 0px 8px 0px rgb(214, 36, 36), inset 0 12px 10px rgb(128, 128, 128);
+    box-shadow: 0px 8px 0px rgb(214, 36, 36), inset 0 12px 10px rgb(128 128 128);
+}
+
+.rpsls-pick-options__direction-background__options-grp-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rpsls-pick-options__direction-background__options-grp-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rpsls-pick-options__direction-background__options-grp-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+/* PSUDO ACTIONS */
+.rpsls-pick-options__icon:hover {
+    transform: scale(1.1);
+}
+

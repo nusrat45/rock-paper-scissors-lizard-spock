@@ -1,0 +1,156 @@
+.rpsls-main-game-section {
+    display: none;
+}
+
+.rplsls-lets-play {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+
+.rplsls-lets-play__two-sides {
+    align-items: center;
+}
+
+.rplsls-lets-play__two-sides__img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #0c1e39;
+    margin-top: 60px;
+}
+
+.rplsls-lets-play__two-sides__picked-img-scissors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: #fff;
+    border: 20px solid #ffb000;
+    -webkit-box-shadow: 0px 8px 0px #c36b10, inset 0 12px 10px rgb(128, 128, 128);
+    -moz-box-shadow: 0px 8px 0px #c36b10, inset 0 12px 10px rgb(128, 128, 128);
+    -o-box-shadow:0px 8px 0px #c36b10, inset 0 12px 10px rgb(128, 128, 128);
+    box-shadow: 0px 8px 0px #c36b10, inset 0 12px 10px rgb(128, 128, 128);
+    transition: all 500ms linear;
+}
+
+.rplsls-lets-play__two-sides__picked-img-spock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: #fff;
+    border: 20px solid #bd35bd;
+    -webkit-box-shadow: 0px 8px 0px #8c118c, inset 0 12px 10px rgb(128 128 128);
+    -moz-box-shadow: 0px 8px 0px #8c118c, inset 0 12px 10px rgb(128, 128, 128);
+    -o-box-shadow: 0px 8px 0px #8c118c, inset 0 12px 10px rgb(128, 128, 128);
+    box-shadow: 0px 8px 0px #8c118c, inset 0 12px 10px rgb(128 128 128);
+    transition: all 500ms linear;
+}
+
+.rplsls-lets-play__two-sides__picked-img-paper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: #fff;
+    border: 20px solid rgb(95, 95, 253);
+    -webkit-box-shadow: 0px 8px 0px rgb(62, 62, 177), inset 0 12px 10px rgb(128 128 128);
+    -moz-box-shadow: 0px 8px 0px rgb(62, 62, 177), inset 0 12px 10px rgb(128, 128, 128);
+    -o-box-shadow: 0px 8px 0px rgb(62, 62, 177), inset 0 12px 10px rgb(128, 128, 128);
+    box-shadow: 0px 8px 0px rgb(62, 62, 177), inset 0 12px 10px rgb(128 128 128);
+    transition: all 500ms linear;
+}
+
+.rplsls-lets-play__two-sides__picked-img-lizard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: #fff;
+    border: 20px solid #4cc7c7;
+    -webkit-box-shadow: 0px 8px 0px #0b9090, inset 0 12px 10px rgb(128 128 128);
+    -moz-box-shadow: 0px 8px 0px #0b9090, inset 0 12px 10px rgb(128, 128, 128);
+    -o-box-shadow: 0px 8px 0px #0b9090, inset 0 12px 10px rgb(128, 128, 128);
+    box-shadow: 0px 8px 0px #0b9090, inset 0 12px 10px rgb(128 128 128);
+    transition: all 500ms linear;
+}    
+
+.rplsls-lets-play__two-sides__picked-img-rock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: #fff;
+    border: 20px solid rgb(241, 66, 66);
+    -webkit-box-shadow: 0px 8px 0px rgb(214, 36, 36), inset 0 12px 10px rgb(128 128 128);
+    -moz-box-shadow: 0px 8px 0px rgb(214, 36, 36), inset 0 12px 10px rgb(128, 128, 128);
+    -o-box-shadow: 0px 8px 0px rgb(214, 36, 36), inset 0 12px 10px rgb(128, 128, 128);
+    box-shadow: 0px 8px 0px rgb(214, 36, 36), inset 0 12px 10px rgb(128 128 128);
+    transition: all 500ms linear;
+}
+
+.rplsls-lets-play__computers-side__loading {
+    animation: 3s dancing infinite;
+}
+
+@keyframes dancing {
+    0% {
+      transform: scale(1.1);
+    }
+  
+    25% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(1.1);
+    }
+  
+    75% {
+      transform: scale(1);
+    }
+  
+    100% {
+      transform: scale(1.1);
+    }
+}
+
+/* final result */
+.rpsls-gameover-large-section {
+    margin-top: 10%;
+    display: none;
+}
+
+.rpsls-gameover-small-section {
+    position: relative;
+    display: none;
+}
+
+.rpsls-gameover {
+    display: block;
+    margin-top: 16%;
+}
+
+.rpsls-gameover__text {
+    font-size: 16px;
+    line-height: 2;
+    text-align: center;
+}
+
+.rpsls-gameover__playagain-btn {
+    width: 120px;
+    background-color: #fff;
+    padding: 8px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    color: #666666;
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace;
+    cursor: pointer;
+}

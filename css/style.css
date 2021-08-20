@@ -1,0 +1,25 @@
+@import url('general.css');
+@import url('scoreboard.css');
+@import url('pickoptions.css');
+@import url('maingame.css');
+@import url('gamerules.css');
+@import url('responsive.css');
+
+.overall-game-container {
+    width: calc(100% - 100px);
+    background-color: #192444;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.rpsls-scoreboard-section,
+.rpsls-pick-options-section,
+.rpsls-main-game-section,
+.rpsls-game-rules-section {
+    position: relative;
+}
+
+
+
+
