@@ -9,6 +9,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.noscroll {
+    overflow: hidden;
+}
+
 .flex-container-row {
     display: flex;
     flex-direction: row;

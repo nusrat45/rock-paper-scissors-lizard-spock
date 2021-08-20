@@ -119,14 +119,9 @@
     }
 }
 
-/* final result */
+/* final result- large */
 .rpsls-gameover-large-section {
     margin-top: 10%;
-    display: none;
-}
-
-.rpsls-gameover-small-section {
-    position: relative;
     display: none;
 }
 
@@ -142,6 +137,37 @@
 }
 
 .rpsls-gameover__playagain-btn {
+    width: 120px;
+    background-color: #fff;
+    padding: 8px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    color: #666666;
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+/* FOR SMALL DEVICE */
+.rpsls-gameover-small-section {
+    position: relative;
+    display: none;
+}
+
+.rpsls-gameover-small {
+    display: block;
+    margin-top: 16%;
+}
+
+.rpsls-gameover-small__text {
+    font-size: 16px;
+    line-height: 2;
+    text-align: center;
+}
+
+.rpsls-gameover-small__playagain-btn {
     width: 120px;
     background-color: #fff;
     padding: 8px 0px;

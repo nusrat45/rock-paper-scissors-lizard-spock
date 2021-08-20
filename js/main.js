@@ -5,9 +5,11 @@ const $closePopupBtn = document.querySelector('.rpsls-game-rules-popup__rules-mo
 const $closePopupBtnSmall = document.querySelector('.rpsls-game-rules-popup-small__rules-modal__closebtn');
 const $gameRulesPopup =  document.querySelector('.rpsls-game-rules-popup');
 const $gameRulesPopupSmall = document.querySelector('.rpsls-game-rules-popup-small');
-const $playAgainBtn = document.querySelector('.rpsls-gameover__playagain-btn');
 const $gameResult = document.querySelector('.rpsls-gameover-large-section');
 const $gameResultsmall = document.querySelector('.rpsls-gameover-small-section');
+const $playAgainBtn = document.querySelector('.rpsls-gameover__playagain-btn');
+const $playAgainBtnSmall = document.querySelector('.rpsls-gameover-small__playagain-btn');
+
 
 for(const $iconClickBtn of $iconClickBtns) {
     $iconClickBtn.addEventListener('click', function(event){
@@ -52,6 +54,19 @@ $playAgainBtn.addEventListener('click', function(){
     document.querySelector('.rpsls-main-game-section').style.display = 'none';   
     document.querySelector('.rpsls-pick-options-section').style.display = 'block'; 
 });
+
+$playAgainBtnSmall.addEventListener('click', function(){
+    let targetClass_1 = document.querySelector('.rplsls-lets-play__players-side__img');
+    removePickedClass(targetClass_1);
+    let targetClass = document.querySelector('.rplsls-lets-play__computers-side__img');
+    removePickedClass(targetClass);
+    targetClass.classList.add('rplsls-lets-play__computers-side__loading');
+    $gameResult.style.display = 'none';
+    $gameResultsmall.style.display = 'none';
+    document.querySelector('.rpsls-main-game-section').style.display = 'none';   
+    document.querySelector('.rpsls-pick-options-section').style.display = 'block'; 
+});
+
 
 window.addEventListener('resize', function(event) {
     console.log('moving');

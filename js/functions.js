@@ -16,7 +16,7 @@ function removePickedClass(targetClass) {
 
 function setValueForComputerSide() {
     let pickNumForComuputerSide = generateRandomNumers(1, 5);
-    console.log(pickNumForComuputerSide);
+    //console.log(pickNumForComuputerSide);
     let imgSrcComp = '';
     let imgParentClass = '';
     switch(pickNumForComuputerSide) {
@@ -165,14 +165,15 @@ function showFinalResult() {
     const imgNumComp = getNumberFromImg(imgSrcComp2);
     const finalResult = comparisonBetweenTwo(imgNumPlayer, imgNumComp);
     let $finalResult = '';
+    let $finalResultText = '';
     if(window.innerWidth > 591) {
         $finalResult = document.querySelector('.rpsls-gameover-large-section');
+        $finalResultText =  document.querySelector('.rpsls-gameover__text');
+
     } else {
         $finalResult = document.querySelector('.rpsls-gameover-small-section');
+        $finalResultText =  document.querySelector('.rpsls-gameover-small__text');
     }
-   
-    const $finalResultText =  document.querySelector('.rpsls-gameover__text');
-    //const $playAgainBtn = document.querySelector('.rplsls-lets-play__final-result__playagain-btn');
 
     //score
     const $score = document.querySelector('.rpsls-score-board__score__value');
